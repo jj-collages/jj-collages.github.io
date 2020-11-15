@@ -1,0 +1,20 @@
+{% extends '_base.html' %}
+
+{% block content %}
+<div id="collages">
+    {% for collage in collages %}
+    <div class="collage">
+        <div class="image">
+            <img src="{{ collage.img_path }}" alt="{{ collage.name }}"/>
+        </div>
+        <div class="metadata">
+            <span class="name">{{ collage.name }}</span>,
+            <span class="year">{{ collage.year }}</span>.
+            <span class="dimensions">
+                {{ collage.width_in_cm }} ✖️ {{ collage.height_in_cm }}
+            </span>.
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

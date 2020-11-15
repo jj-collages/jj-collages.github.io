@@ -1,0 +1,13 @@
+collages:
+  - name: Buste de femme avec autoportrait
+    year: 1929
+    width_in_cm: 71
+    height_in_cm: 60.5
+    how_many_printed: 7
+    how_many_sold: 5
+  - name: La Demoiselle (Tête)
+    year: 1929
+    width_in_cm: 54
+    height_in_cm: 45.5
+    how_many_printed: 7
+    how_many_sold: 7
