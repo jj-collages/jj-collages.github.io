@@ -1,23 +1,33 @@
-## Note d'intention de l'artiste
+## Quelques mots de l'artiste
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+Le collage est une technique de création artistique qui consiste à organiser
+une création plastique par la combinaison d'éléments séparés de toute nature
+(extraits de journaux, magazines, livres, textes, photos, documents divers...).
 
-## Quelques mots sur l'ariste
+Pour moi, la technique s'inspire du principe de "l'association livre" à l'œuvre
+dans tout cheminement ou processus psychanalytique.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
-porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
-ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea
-voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
-eum fugiat quo voluptas nulla pariatur?
+Il m'arrive de marier texte écrit et images pour illustrer le thème d'un
+collage.
+
+## Parcours artistique
+
+Lorsque j'étais étudiante (entre 1972 et 1978), j'ai suivi des cours de dessin
+à la mairie de Franconville, où j'ai résidé.
+
+Ensuite, à l'âge de 40 ans, j'ai suivi pendant 4 ans des cours sur la technique
+du collage à la mairie de Margency (Val-d'Oise).
+
+De plus, dans le cadre de mon activité de psychologue, psychanalyste et
+pédo-psychiatre à Cergy-Pontoise, j'ai animé pendant de nombreuses années un
+atelier collage dans l'hôpital de jour du Sercice.
+
+Après avoir fait une analyse personnelle à visée didactique, j'ai souhaité
+présenter mes collages dans plusieurs mairies en Corse, où je réside
+quelquefois : en 2006 à Bastia, 2008 à Porto Vecchio, 2010 à Calvi, 2014-2015 à
+_Casa di Petra_ de Porto Vecchio.
+
+J'ai également eu la chance de pouvoir exposer mes collages lors de plusieurs
+salons. En septembre 2017, au 61ème salon des Arts de Taverny. En octobre 2017,
+au 31ème salon des arts de Pontoise. En décembre 2017, au 43ème salon des arts
+de Suresnes.

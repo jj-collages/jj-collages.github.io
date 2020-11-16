@@ -20,9 +20,19 @@ DATA_SCHEMA = schema.Schema(
                 "height_in_cm": schema.Or(int, float),
                 "how_many_printed": int,
                 "how_many_sold": int,
+                "image_filename": str,
+                "price": int,
+                schema.Optional("technical_note"): str,
                 schema.Optional("description"): str,
             }
         ],
+        "exhibitions": [
+            {
+                "name": str,
+                "type": str,
+                "year": int,
+            }
+        ]
     }
 )
 
@@ -30,16 +40,16 @@ MARKDOWNER = markdown.Markdown(output_format="html5")
 
 
 def md_context(template):
-    logging.debug("rendering %s" % template.filename)
     with open(template.filename) as f:
         markdown_content = f.read()
     return {"page_content": MARKDOWNER.convert(markdown_content)}
 
 
 def render_md(site, template, **kwargs):
-    outpath = pathlib.Path(site.outpath) / pathlib.Path(
-        template.filename
-    ).with_suffix(".html")
+    outpath = str(
+        pathlib.Path(site.outpath)
+        / pathlib.Path(template.filename).with_suffix(".html").parts[-1]
+    )
     template = site.get_template("_page.html")
     template.stream(**kwargs).dump(outpath, encoding="utf-8")
 
@@ -68,8 +78,14 @@ if __name__ == "__main__":
         env_globals=data,
         outpath="_build",
         searchpath="templates",
-        contexts=[("*", page_name_context), (".*.md", md_context)],
-        rules=[(".*.md", render_md)],
+        contexts=[
+            (r".*", page_name_context),
+            (r".*\.md", md_context),
+        ],
+        rules=[
+            (r".*.md", render_md),
+        ],
+        mergecontexts=True,
     )
     logging.info("rendering")
     site.render()

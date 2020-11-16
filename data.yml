@@ -5,9 +5,44 @@ collages:
     height_in_cm: 60.5
     how_many_printed: 7
     how_many_sold: 5
+    price: 400
+    technical_note: Épreuve d'artiste.
+    image_filename: buste_de_femme_avec_autoportrait.png
   - name: La Demoiselle (Tête)
     year: 1929
     width_in_cm: 54
     height_in_cm: 45.5
     how_many_printed: 7
     how_many_sold: 7
+    price: 200
+    technical_note: Huile sur toile.
+    image_filename: la_demoiselle_tete.png
+
+exhibitions:
+  - name: 61ème salon des Arts de Taverny
+    year: 2017
+    type: salon
+  - name: 31ème salon des Arts de Pontoise
+    year: 2017
+    type: salon
+  - name: 43ème salon des Arts de Suresnes
+    year: 2017
+    type: salon
+  - name: 77ème édition du salon Arami à Ermont sur le thème "chaos"
+    year: 2021
+    type: salon
+  - name: Mairie de Bastia
+    year: 2006
+    type: exhibition
+  - name: Mairie de Porto Vecchio
+    year: 2008
+    type: exhibition
+  - name: Mairie de Calvi
+    year: 2010
+    type: exhibition
+  - name: Casa di Petra, Porto Vecchio
+    year: 2014
+    type: exhibition
+  - name: Casa di Petra, Porto Vecchio
+    year: 2015
+    type: exhibition
