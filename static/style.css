@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1em;
+  background: white;
 }
 @media (max-width: 800px) {
   body {
