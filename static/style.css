@@ -29,7 +29,7 @@ h5 {
 }
 @media (max-width: 800px) {
   #menu {
-    display: none;
+    flex-direction: column;
   }
 }
 
@@ -41,6 +41,7 @@ h5 {
   color: black;
   font-style: italic;
   font-size: 1.2em;
+  text-align: center;
 }
 
 #menu > .item {
@@ -84,37 +85,40 @@ h5 {
 }
 
 #collages {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*justify-content: center;*/
+  /*flex-wrap: wrap;*/
+  -moz-column-count: 5;
+  -webkit-column-count: 5;
+  column-count: 5;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 1em;
+  column-gap: 1em;
 }
 @media (max-width: 800px) {
   #collages {
-    flex-direction: column;
+    /*flex-direction: column;*/
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 0.2em;
+    column-gap: 0.2em;
   }
 }
 
 .collage {
-  display: flex;
-  flex-direction: row;
-  margin: 1em;
-  width: 50%;
-}
-@media (max-width: 800px) {
-  .collage {
-    flex-direction: column;
-    width: 100%;
-    margin: 1em 0;
-  }
+  display: inline-block;
+  /*flex-direction: row;*/
+  margin: 1em 0;
+  /*width: 48%;*/
 }
 
 .collage > .image {
-  width: 40%;
-}
-@media (max-width: 800px) {
-  .collage > .image {
-    width: 100%;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .collage > .image > img {
@@ -155,6 +159,14 @@ h5 {
   border-bottom: 1px dashed #ccc;
 }
 
+#collage {
+  text-align: center;
+}
+
+#collage > #title > em {
+  font-weight: normal;
+}
+
 .page-content {
   max-width: 600px;
   margin: 0 auto;
@@ -181,7 +193,7 @@ h5 {
   text-decoration: none;
 }
 
-#content a:hover,
+.page-content a:hover,
 #footer a:hover {
   border-bottom: 1px dashed #ccc;
 }
