@@ -14,7 +14,7 @@ cp -r _build /tmp/_build
 git checkout main
 # remove all files (note: this will not remove hidden files such as the .git
 # folder, which should not be removed of course)
-rm -rf *
+git rm -r *
 # copy build content here
 cp -r /tmp/_build/* .
 # push that to the repo

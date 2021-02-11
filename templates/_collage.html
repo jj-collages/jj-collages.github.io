@@ -37,9 +37,15 @@
     {% if collage.how_many_sold >= collage.how_many_printed %}
     Indisponible.
     {% else %}
-    {{ collage.how_many_sold }}/{{ collage.how_many_printed }}
-    vendus{% if collage.price %}, {{ collage.price }}€ pièce{% endif %}
-    à <em>{{ collage.sold_to|join(", ") }}</em>
+      {% if collage.sold_to %}
+        {% for buyer in collage.sold_to %}
+        nº<strong>{{ loop.index }}</strong>/8 vendu à <em>{{ buyer }}</em><br>
+        {% endfor %}
+      {% else %}
+        {{ collage.how_many_sold }}/{{ collage.how_many_printed }}
+        exemplaires vendus{% if collage.price %},
+        {{ collage.price }}€ pièce{% endif %}
+      {% endif %}
     {% endif %}
     </p>
     {% endif %}

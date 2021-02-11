@@ -164,7 +164,7 @@ collages:
     width_in_cm: 30
     height_in_cm: 21
     year: 2016
-    how_many_sold: 1
+    how_many_sold: 2
     sold_to: ["ds", "gs"]
   - name: "Triangle 1"
     width_in_cm: 30
@@ -262,6 +262,18 @@ collages:
     year: 2020
     how_many_sold: 1
     sold_to: ["ds"]
+  - name: "Craac"
+    width_in_cm: 30
+    height_in_cm: 40
+    year: 2021
+  - name: "Extrait de collection"
+    width_in_cm: 40
+    height_in_cm: 30
+    year: 2021
+  - name: "Cette photo de Salomé"
+    width_in_cm: 40
+    height_in_cm: 40
+    year: 2021
 
 exhibitions:
   - name: 61ème salon des Arts de Taverny

@@ -2,7 +2,7 @@
 
 Les collages sont numérotés de 1 à 8, trois EA (épreuves d'artiste) en plus. Le
 collage original est conservé par l'artiste.
-Fourchette de prix des collages : de 150 à 200 euros.
+Fourchette de prix des collages : de 100 à 150 euros.
 Pour toute création à la demande un devis est réalisé préalablement.
 
 _Il m'est possible de réaliser des collages à la thématique et au format
