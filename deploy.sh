@@ -19,4 +19,4 @@ cp -r /tmp/_build/* .
 git add .
 DATE=`date`
 git commit -m "deploy: ${DATE}"
-git push --force github main
+git push --force origin main
