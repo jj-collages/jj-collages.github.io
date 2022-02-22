@@ -1,4 +1,61 @@
 collages:
+  - name: "Vintage Rose"
+    width_in_cm: 50
+    height_in_cm: 40
+    year: 2022
+  - name: "Endigen"
+    width_in_cm: 25
+    height_in_cm: 30
+    year: 2022
+  - name: "Action Comics"
+    width_in_cm: 30
+    height_in_cm: 40
+    year: 2022
+  - name: "Dream Desire"
+    width_in_cm: 50
+    height_in_cm: 30
+    year: 2021
+    how_many_sold: 1
+    sold_to: ["as"]
+    note: "Sur plexiglass"
+  - name: "Psychose"
+    width_in_cm: 28
+    height_in_cm: 38
+    year: 2021
+  - name: "Vous avez ma parole"
+    width_in_cm: 30
+    height_in_cm: 40
+    year: 2021
+  - name: "Vitrail"
+    width_in_cm: 30
+    height_in_cm: 40
+    year: 2021
+  - name: "Noir et blanc"
+    width_in_cm: 30
+    height_in_cm: 38
+    year: 2021
+  - name: "Craac"
+    width_in_cm: 40
+    height_in_cm: 30
+    year: 2021
+  - name: "Extrait de collection"
+    width_in_cm: 40
+    height_in_cm: 30
+    year: 2021
+  - name: "La photo de Salomé"
+    width_in_cm: 40
+    height_in_cm: 30
+    year: 2021
+  - name: "Devil"
+    width_in_cm: 30
+    height_in_cm: 30
+    note: "Sur boîte"
+    year: 2021
+  - name: "Pensées"
+    width_in_cm: 30
+    height_in_cm: 30
+    year: 2021
+    note: "Sur boîte et plexiglass"
   - name: "King"
     year: 1992
     how_many_sold: 1
