@@ -1,4 +1,16 @@
 collages:
+  - name: "Amazone"
+    width_in_cm: 25 
+    height_in_cm: 30
+    year: 2023
+  - name: "Edition Limitee"
+    width_in_cm: 30 
+    height_in_cm: 40
+    year: 2023
+  - name: "Jeunes filles en fleurs"
+    width_in_cm: 50 
+    height_in_cm: 40
+    year: 2022
   - name: "Vintage Rose"
     width_in_cm: 50
     height_in_cm: 40
@@ -30,6 +42,8 @@ collages:
     width_in_cm: 30
     height_in_cm: 40
     year: 2021
+    how_many_sold: 1
+    sold_to: ["af"]
   - name: "Noir et blanc"
     width_in_cm: 30
     height_in_cm: 38
@@ -366,3 +380,6 @@ exhibitions:
   - name: "Salon Emergences, Rotonde de Sel, 47 grande rue, 92310 Sevres, du 21 au 30 mai"
     year: 2021
     type: salon
+  - name: "48ème salon des artistes - Suresnes - du 23 au 26 novembre"
+    year: 2023
+    type: exhibition

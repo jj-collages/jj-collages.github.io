@@ -1,8 +1,9 @@
+importlib-metadata==4.13.0
 contextlib2==0.6.0.post1
 docopt==0.6.2
 easywatch==0.0.5
 Jinja2==2.11.2
-Markdown==3.3.3
+Markdown==3.6
 MarkupSafe==1.1.1
 pyaml==20.4.0
 python-slugify==4.0.1
