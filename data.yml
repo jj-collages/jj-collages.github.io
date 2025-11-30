@@ -1,4 +1,26 @@
 collages:
+  - name: "Alice au pays des neurones"
+    year: 2025
+  - name: "Amazing Exhibition"
+    year: 2025
+  - name: "Clair obscur"
+    year: 2025
+  - name: "De l'etre et des chiffres"
+    year: 2025
+  - name: "Flora"
+    year: 2025
+  - name: "Fun with you"
+    year: 2024
+  - name: "Margalite"
+    year: 2025
+  - name: "Mon beau palmier vert"
+    year: 2025
+  - name: "Nocturne"
+    year: 2024
+  - name: "Oh mon beau palmier vert"
+    year: 2024
+  - name: "Pensées psychédéliques"
+    year: 2024
   - name: "Amazone"
     width_in_cm: 25 
     height_in_cm: 30
